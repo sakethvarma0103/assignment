@@ -1,4 +1,4 @@
-from django.db import models
+from django.db import models # type: ignore
 
 class Event(models.Model):
     event_name = models.CharField(max_length=100)

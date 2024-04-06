@@ -1,7 +1,7 @@
 import os
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'assignemnt.settings')
 
-import django
+import django # type: ignore
 django.setup()
 
 import csv
